@@ -1,5 +1,6 @@
 package stepDefenition;
 
+import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -11,13 +12,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-
-public class LoginStepDefenition {
+public class DealStepDefenition {
 
     public  static WebDriver driver;
-
 
     @Given("^User is on the Login Page$")
     public void user_is_on_the_Login_Page() {
@@ -33,10 +33,11 @@ public class LoginStepDefenition {
         Assert.assertEquals("#1 Free CRM software in the cloud for sales and service", title);
     }
 
-    @Then("^User enters \"(.*)\" and \"(.*)\"$")
-    public void user_enters_username_and_password(String username, String password) {
-        driver.findElement(By.name("username")).sendKeys(username);
-        driver.findElement(By.name("password")).sendKeys(password);
+    @Then("^User enters username and password$")
+    public void user_enters_username_and_password(DataTable credentials) {
+        List<List<String>> data = credentials.raw();
+        driver.findElement(By.name("username")).sendKeys(data.get(0).get(0));
+        driver.findElement(By.name("password")).sendKeys(data.get(0).get(1));
     }
 
     @Then("^User clicks on login button$")
@@ -53,30 +54,24 @@ public class LoginStepDefenition {
         System.out.println("Homepage title ::"+ title);
         Assert.assertEquals("CRMPRO",title);
     }
-    @Then("^User moves to new contacts page$")
-    public void user_moves_to_new_contacts_page(){
+
+    @Then("^User moves to new deals page$")
+    public void user_moves_to_new_deals_page() throws InterruptedException {
         driver.switchTo().frame("mainpanel");
         Actions action = new Actions(driver);
-        action.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Contacts')]"))).build().perform();
-        driver.findElement(By.xpath("//a[contains(text(),'New Contact')]")).click();
-
-    }
-@Then("^ User enters contact details \"(.*)\" and \"(.*)\" and \"(.*)\"$")
-    public void user_enters_contacts_details(String firstname, String lastname, String department){
-        driver.findElement(By.id("first_name")).sendKeys(firstname);
-        driver.findElement(By.id("surname")).sendKeys(lastname);
-        driver.findElement(By.id("department")).sendKeys(department);
-        driver.findElement(By.xpath("//input[@type = 'submit' and @value = 'Save']")).click();
+        action.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Deals')]"))).build().perform();
+        Thread.sleep(3000);
+        driver.findElement(By.xpath("//a[contains(text(),'New Deal')]")).click();
     }
 
-    @Then("^User enters contact details \"([^\"]*)\" and \"([^\"]*)\" and \"([^\"]*)\"$")
-    public void user_enters_contact_details_and_and(String firstname, String lastname, String department){
-        driver.findElement(By.id("first_name")).sendKeys(firstname);
-        driver.findElement(By.id("surname")).sendKeys(lastname);
-        driver.findElement(By.id("department")).sendKeys(department);
-        driver.findElement(By.xpath("//input[@type = 'submit' and @value = 'Save']")).click();
+    @Then("^User enters deals details$")
+    public void user_enters_deals_details(DataTable dealData) {
+        List<List<String>> dealValue = dealData.raw();
+        driver.findElement(By.id("title")).sendKeys(dealValue.get(0).get(0));
+        driver.findElement(By.id("amount")).sendKeys(dealValue.get(0).get(1));
+        driver.findElement(By.id("probability")).sendKeys(dealValue.get(0).get(2));
+        driver.findElement(By.id("commission")).sendKeys(dealValue.get(0).get(3));
     }
-
 
     @Then("^Browser gets closed$")
     public void browser_gets_closed(){

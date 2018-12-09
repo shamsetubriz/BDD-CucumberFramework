@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a79d8415-4de8-4f45-9ffa-1dc73ee6638a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Features/contact.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Features/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/runner/ContactsRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json_output/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/json_output/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_xml/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/junit_xml/cucumber.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/runner/ContactsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/runner/ContactsRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stepDefenitions/ContactStepDefenition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stepDefenitions/LoginStepDefenition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepDefenition/LoginStepDefenition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stepDefenition/LoginStepDefenition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepDefenition/LoginStepDefenition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/runner/ContactsRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/runner/ContactsRunner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/runner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/runner/TestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stepDefenitions/ContactStepDefenition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stepDefenitions/LoginStepDefenition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stepDefenition/LoginStepDefenition.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -81,15 +78,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="feature" value="759" />
-          <entry key="java" value="1058" />
+          <entry key="feature" value="939" />
+          <entry key="java" value="1270" />
           <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="759" />
-          <entry key="JAVA" value="1058" />
+          <entry key="Cucumber" value="939" />
+          <entry key="JAVA" value="1270" />
           <entry key="XML" value="10" />
         </counts>
       </usages-collector>
@@ -97,9 +94,9 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="css" value="1" />
-          <entry key="feature" value="3" />
+          <entry key="feature" value="4" />
           <entry key="html" value="3" />
-          <entry key="java" value="8" />
+          <entry key="java" value="10" />
           <entry key="js" value="3" />
           <entry key="json" value="1" />
           <entry key="xml" value="1" />
@@ -109,9 +106,9 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="CSS" value="1" />
-          <entry key="Cucumber" value="3" />
+          <entry key="Cucumber" value="4" />
           <entry key="HTML" value="3" />
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="10" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="3" />
           <entry key="XML" value="1" />
@@ -133,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Features/login.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state relative-caret-position="300">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="20" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -142,13 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/stepDefenition/LoginStepDefenition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="63" column="6" selection-start-line="63" selection-start-column="4" selection-end-line="69" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2939#2940#0" expanded="true" />
-                <element signature="e#2968#2969#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-100">
+              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -156,8 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/runner/ContactsRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="180">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,7 +157,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-output/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -177,8 +169,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/runner/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="150">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -187,24 +179,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-output/report.js">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Features/deals.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1474" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/junit_xml/cucumber.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/runner/DealsDDRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/stepDefenition/DealStepDefenition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3051#3052#0" expanded="true" />
+                <element signature="e#3080#3081#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/json_output/cucumber.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-output/style.css">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -230,9 +240,12 @@
         <option value="$PROJECT_DIR$/src/main/java/Features/contact.feature" />
         <option value="$PROJECT_DIR$/src/main/java/Features/contacts.feature" />
         <option value="$PROJECT_DIR$/src/main/java/Features/login.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/Features/deals.feature" />
         <option value="$PROJECT_DIR$/src/main/java/runner/TestRunner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/stepDefenition/LoginStepDefenition.java" />
         <option value="$PROJECT_DIR$/src/main/java/runner/ContactsRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/stepDefenition/LoginStepDefenition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runner/DealsDDRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/stepDefenition/DealStepDefenition.java" />
       </list>
     </option>
   </component>
@@ -262,11 +275,11 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="184" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="28" />
     <option name="y" value="22" />
-    <option name="width" value="1192" />
-    <option name="height" value="830" />
+    <option name="width" value="1412" />
+    <option name="height" value="831" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -303,6 +316,43 @@
             <path>
               <item name="FreeCrmBDDFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="FreeCrmBDDFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCrmBDDFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreeCrmBDDFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCrmBDDFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreeCrmBDDFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCrmBDDFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreeCrmBDDFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="runner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCrmBDDFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreeCrmBDDFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stepDefenition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCrmBDDFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreeCrmBDDFramework" type="462c0819:PsiDirectoryNode" />
               <item name="webDriver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -315,7 +365,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544375088105" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544390868986" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -341,7 +391,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ContactsRunner">
+  <component name="RunManager" selected="JUnit.DealsDDRunner">
     <configuration name="Scenario: Free CRM Login Test Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/Features/contacts.feature" />
@@ -375,6 +425,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DealsDDRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FreeCrmBDDFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.DealsDDRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FreeCrmBDDFramework" />
       <extension name="coverage">
@@ -395,9 +459,11 @@
       <item itemvalue="JUnit.TestRunner" />
       <item itemvalue="JUnit.ContactsRunner" />
       <item itemvalue="Cucumber java.Scenario: Free CRM Login Test Scenario" />
+      <item itemvalue="JUnit.DealsDDRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DealsDDRunner" />
         <item itemvalue="JUnit.ContactsRunner" />
         <item itemvalue="Cucumber java.Scenario: Free CRM Login Test Scenario" />
         <item itemvalue="JUnit.TestRunner" />
@@ -418,35 +484,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContactsRunner - 2018.12.09 at 11h 17m 07s.xml">
-      <configuration name="ContactsRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContactsRunner - 2018.12.09 at 11h 32m 14s.xml">
-      <configuration name="ContactsRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContactsRunner - 2018.12.09 at 11h 39m 22s.xml">
-      <configuration name="ContactsRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRunner - 2018.12.09 at 11h 40m 11s.xml">
-      <configuration name="TestRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContactsRunner - 2018.12.09 at 11h 44m 40s.xml">
-      <configuration name="ContactsRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContactsRunner - 2018.12.09 at 11h 49m 44s.xml">
-      <configuration name="ContactsRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Scenario__Free_CRM_Login_Test_Scenario - 2018.12.09 at 11h 53m 02s.xml">
-      <configuration name="Scenario: Free CRM Login Test Scenario" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ContactsRunner - 2018.12.09 at 11h 53m 13s.xml">
-      <configuration name="ContactsRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContactsRunner - 2018.12.09 at 11h 54m 30s.xml">
-      <configuration name="ContactsRunner" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ContactsRunner - 2018.12.09 at 11h 55m 27s.xml">
       <configuration name="ContactsRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealsDDRunner - 2018.12.09 at 13h 05m 08s.xml">
+      <configuration name="DealsDDRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealsDDRunner - 2018.12.09 at 13h 05m 24s.xml">
+      <configuration name="DealsDDRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealsDDRunner - 2018.12.09 at 14h 11m 25s.xml">
+      <configuration name="DealsDDRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealsDDRunner - 2018.12.09 at 14h 13m 41s.xml">
+      <configuration name="DealsDDRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealsDDRunner - 2018.12.09 at 14h 14m 39s.xml">
+      <configuration name="DealsDDRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealsDDRunner - 2018.12.09 at 14h 15m 13s.xml">
+      <configuration name="DealsDDRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealsDDRunner - 2018.12.09 at 14h 15m 40s.xml">
+      <configuration name="DealsDDRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealsDDRunner - 2018.12.09 at 16h 21m 00s.xml">
+      <configuration name="DealsDDRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealsDDRunner - 2018.12.09 at 16h 24m 41s.xml">
+      <configuration name="DealsDDRunner" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -460,8 +526,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16380544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16380544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -469,17 +536,17 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6253012" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32791328" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24096386" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39972898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32891566" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32791328" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32791328" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.5016077" side_tool="true" visible="true" weight="0.14306152" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32791328" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32791328" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.50158733" side_tool="true" visible="true" weight="0.14306152" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -488,7 +555,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Mongo Explorer" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" sideWeight="0.49839228" visible="true" weight="0.14306152" />
+      <window_info anchor="right" id="Maven Projects" order="8" sideWeight="0.4984127" visible="true" weight="0.14306152" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -568,20 +635,10 @@
     <entry file="file://$PROJECT_DIR$/json_output/cucumber.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runner/TestRunner.java">
+    <entry file="file://$PROJECT_DIR$/test-output/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Features/login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -592,32 +649,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/stepDefenition/LoginStepDefenition.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Features/deals.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="63" column="6" selection-start-line="63" selection-start-column="4" selection-end-line="69" selection-end-column="7" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Features/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runner/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2939#2940#0" expanded="true" />
-            <element signature="e#2968#2969#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/runner/ContactsRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="180">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-output/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/stepDefenition/LoginStepDefenition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="-100">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runner/DealsDDRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/stepDefenition/DealStepDefenition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3051#3052#0" expanded="true" />
+            <element signature="e#3080#3081#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
