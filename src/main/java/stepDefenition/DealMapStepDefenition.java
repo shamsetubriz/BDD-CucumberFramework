@@ -1,4 +1,3 @@
-/*
 package stepDefenition;
 
 import cucumber.api.DataTable;
@@ -14,9 +13,11 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-public class DealStepDefenition {
+//data table with maps for parameterization of test cases
+public class DealMapStepDefenition {
 
     public  static WebDriver driver;
 
@@ -36,9 +37,10 @@ public class DealStepDefenition {
 
     @Then("^User enters username and password$")
     public void user_enters_username_and_password(DataTable credentials) {
-        List<List<String>> data = credentials.raw();
-        driver.findElement(By.name("username")).sendKeys(data.get(0).get(0));
-        driver.findElement(By.name("password")).sendKeys(data.get(0).get(1));
+        for(Map<String,String> data : credentials.asMaps(String.class,String.class)){
+        driver.findElement(By.name("username")).sendKeys(data.get("username"));
+        driver.findElement(By.name("password")).sendKeys(data.get("password"));
+        }
     }
 
     @Then("^User clicks on login button$")
@@ -61,23 +63,29 @@ public class DealStepDefenition {
         driver.switchTo().frame("mainpanel");
         Actions action = new Actions(driver);
         action.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Deals')]"))).build().perform();
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         driver.findElement(By.xpath("//a[contains(text(),'New Deal')]")).click();
     }
 
     @Then("^User enters deals details$")
-    public void user_enters_deals_details(DataTable dealData) {
-        List<List<String>> dealValue = dealData.raw();
-        driver.findElement(By.id("title")).sendKeys(dealValue.get(0).get(0));
-        driver.findElement(By.id("amount")).sendKeys(dealValue.get(0).get(1));
-        driver.findElement(By.id("probability")).sendKeys(dealValue.get(0).get(2));
-        driver.findElement(By.id("commission")).sendKeys(dealValue.get(0).get(3));
+    public void user_enters_deals_details(DataTable dealData) throws InterruptedException {
+        for(Map<String,String> data : dealData.asMaps(String.class,String.class)){
+        driver.findElement(By.id("title")).sendKeys(data.get("title"));
+        driver.findElement(By.id("amount")).sendKeys(data.get("amount"));
+        driver.findElement(By.id("probability")).sendKeys(data.get("probability"));
+        driver.findElement(By.id("commission")).sendKeys(data.get("commission"));
+        //saving the deal
+        driver.findElement(By.xpath("//*[@id=\'prospectForm\']/table/tbody/tr[1]/td/input[1]"));
+        //move to new deal
+        Actions action = new Actions(driver);
+        action.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Deals')]"))).build().perform();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//a[contains(text(),'New Deal')]")).click();
+        }
     }
 
     @Then("^Browser gets closed$")
     public void browser_gets_closed(){
         driver.quit();
     }
-
 }
-*/
