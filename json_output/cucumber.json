@@ -3,170 +3,89 @@
     "line": 1,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 3493650926,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefenition.setUp()"
+            }
+          }
+        ],
         "line": 3,
-        "name": "Free CRM Login Test Scenario",
+        "name": "free crm create deal test",
         "description": "",
-        "id": "deal-data-creation;free-crm-login-test-scenario",
+        "id": "free-crm-app-test;free-crm-create-deal-test",
+        "after": [
+          {
+            "result": {
+              "duration": 101096745,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefenition.browser_gets_closed()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3346561976,
+              "duration": 7877528355,
               "status": "passed"
             },
-            "line": 5,
-            "name": "User is on the Login Page",
+            "line": 4,
+            "name": "user is on newdeal page",
             "match": {
-              "location": "DealMapStepDefenition.user_is_on_the_Login_Page()"
+              "location": "HooksStepDefenition.user_is_on_deal_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 10156960,
+              "duration": 228063348,
               "status": "passed"
             },
-            "line": 6,
-            "name": "Title of the page is Free CRM",
+            "line": 5,
+            "name": "user fills the deal form",
             "match": {
-              "location": "DealMapStepDefenition.title_of_the_page_is_Free_CRM()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 533187006,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User enters username and password",
-            "match": {
-              "location": "DealMapStepDefenition.user_enters_username_and_password(DataTable)"
+              "location": "HooksStepDefenition.user_fills_the_deal_form(DataTable)"
             },
             "rows": [
               {
                 "cells": [
-                  "username",
-                  "password"
-                ],
-                "line": 8
-              },
-              {
-                "cells": [
-                  "shamsmuhammad",
-                  "dhaka123"
-                ],
-                "line": 9
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1747767100,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User clicks on login button",
-            "match": {
-              "location": "DealMapStepDefenition.user_clicks_on_login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 12133975,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User is on Home page",
-            "match": {
-              "location": "DealMapStepDefenition.user_is_on_Home_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1742443632,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "User moves to new deals page",
-            "match": {
-              "location": "DealMapStepDefenition.user_moves_to_new_deals_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5541821432,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "User enters deals details",
-            "match": {
-              "location": "DealMapStepDefenition.user_enters_deals_details(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "title",
-                  "amount",
-                  "probability",
-                  "commission"
-                ],
-                "line": 14
-              },
-              {
-                "cells": [
-                  "test deal1",
+                  "test deal",
                   "1200",
                   "10",
                   "30"
                 ],
-                "line": 15
-              },
-              {
-                "cells": [
-                  "test deal2",
-                  "2200",
-                  "20",
-                  "40"
-                ],
-                "line": 16
-              },
-              {
-                "cells": [
-                  "test deal3",
-                  "3200",
-                  "30",
-                  "50"
-                ],
-                "line": 17
+                "line": 6
               }
             ],
-            "keyword": "Then "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 109065454,
+              "duration": 57204,
               "status": "passed"
             },
-            "line": 18,
-            "name": "Browser gets closed",
+            "line": 7,
+            "name": "deal is created",
             "match": {
-              "location": "DealMapStepDefenition.browser_gets_closed()"
+              "location": "HooksStepDefenition.deal_is_created()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Deal Data Creation",
+    "name": "Free CRM app test",
     "description": "",
-    "id": "deal-data-creation",
+    "id": "free-crm-app-test",
     "keyword": "Feature",
-    "uri": "/Users/shams/IdeaProjects/FreeCrmBDDFramework/src/main/java/Features/dealMap.feature"
+    "uri": "/Users/shams/IdeaProjects/FreeCrmBDDFramework/src/main/java/Features/hooks.feature"
   }
 ]

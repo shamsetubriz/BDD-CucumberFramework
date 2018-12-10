@@ -24,7 +24,7 @@ Then User is on Home page
     Examples:
       | username    | password |
       |shamsmuhammad|dhaka123  |
-      |shamsmuhammad|dhaka123   |
+      |shamsmuhammad|dhaka123  |
 
 
 

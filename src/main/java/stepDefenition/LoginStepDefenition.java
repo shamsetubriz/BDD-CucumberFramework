@@ -1,4 +1,3 @@
-/*
 package stepDefenition;
 
 import cucumber.api.java.en.Given;
@@ -18,7 +17,6 @@ import java.util.concurrent.TimeUnit;
 public class LoginStepDefenition {
 
     public  static WebDriver driver;
-
 
     @Given("^User is on the Login Page$")
     public void user_is_on_the_Login_Page() {
@@ -54,15 +52,16 @@ public class LoginStepDefenition {
         System.out.println("Homepage title ::"+ title);
         Assert.assertEquals("CRMPRO",title);
     }
+
     @Then("^User moves to new contacts page$")
     public void user_moves_to_new_contacts_page(){
         driver.switchTo().frame("mainpanel");
         Actions action = new Actions(driver);
         action.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Contacts')]"))).build().perform();
         driver.findElement(By.xpath("//a[contains(text(),'New Contact')]")).click();
-
     }
-@Then("^ User enters contact details \"(.*)\" and \"(.*)\" and \"(.*)\"$")
+
+    @Then("^ User enters contact details \"(.*)\" and \"(.*)\" and \"(.*)\"$")
     public void user_enters_contacts_details(String firstname, String lastname, String department){
         driver.findElement(By.id("first_name")).sendKeys(firstname);
         driver.findElement(By.id("surname")).sendKeys(lastname);
@@ -78,11 +77,9 @@ public class LoginStepDefenition {
         driver.findElement(By.xpath("//input[@type = 'submit' and @value = 'Save']")).click();
     }
 
-
     @Then("^Browser gets closed$")
     public void browser_gets_closed(){
         driver.quit();
     }
 
 }
-*/
