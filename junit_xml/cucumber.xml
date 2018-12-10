@@ -1,8 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.700397">
-<testcase classname="Free CRM app test" name="free crm create deal test" time="11.700397">
-<system-out><![CDATA[Given user is on newdeal page...............................................passed
-When user fills the deal form...............................................passed
-Then deal is created........................................................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0">
+<testcase classname="Free CRM app test" name="free crm create deal test" time="0">
+<system-out><![CDATA[Given user is on newdeal page...............................................skipped
+When user fills the deal form...............................................skipped
+Then deal is created........................................................skipped
 ]]></system-out>
+</testcase>
+<testcase classname="Free CRM app test" name="free crm create contact test" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is on contact page...............................................undefined
+When user fills the contact form............................................undefined
+Then contact is created.....................................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Free CRM app test" name="free crm create mail test" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is on mail page..................................................undefined
+When user fills the mail page...............................................undefined
+Then mail is created........................................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Free CRM app test" name="free crm create mail test 2" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is on mail page..................................................undefined
+When user fills the mail page...............................................undefined
+Then mail is created........................................................undefined
+]]></failure>
 </testcase>
 </testsuite>

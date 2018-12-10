@@ -3,39 +3,16 @@
     "line": 1,
     "elements": [
       {
-        "before": [
-          {
-            "result": {
-              "duration": 3493650926,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksStepDefenition.setUp()"
-            }
-          }
-        ],
         "line": 3,
         "name": "free crm create deal test",
         "description": "",
         "id": "free-crm-app-test;free-crm-create-deal-test",
-        "after": [
-          {
-            "result": {
-              "duration": 101096745,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksStepDefenition.browser_gets_closed()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 7877528355,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 4,
             "name": "user is on newdeal page",
@@ -46,8 +23,7 @@
           },
           {
             "result": {
-              "duration": 228063348,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 5,
             "name": "user fills the deal form",
@@ -69,14 +45,124 @@
           },
           {
             "result": {
-              "duration": 57204,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "deal is created",
             "match": {
               "location": "HooksStepDefenition.deal_is_created()"
             },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "free crm create contact test",
+        "description": "",
+        "id": "free-crm-app-test;free-crm-create-contact-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "user is on contact page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "user fills the contact form",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "contact is created",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "free crm create mail test",
+        "description": "",
+        "id": "free-crm-app-test;free-crm-create-mail-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "user is on mail page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "user fills the mail page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "mail is created",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "free crm create mail test",
+        "description": "",
+        "id": "free-crm-app-test;free-crm-create-mail-test;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "user is on mail page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "user fills the mail page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "mail is created",
+            "match": {},
             "keyword": "Then "
           }
         ]

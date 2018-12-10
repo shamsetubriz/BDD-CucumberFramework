@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
         features = {"/Users/shams/IdeaProjects/FreeCrmBDDFramework/src/main/java/Features/login.feature"},
         glue = {"stepDefenition"},
         format = {"pretty","html:test-output","json:json_output/cucumber.json","junit:junit_xml/cucumber.xml"},
-        dryRun = true,
+        dryRun = false,
         monochrome = true,
         strict = true
 
